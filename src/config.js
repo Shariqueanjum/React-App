@@ -1,5 +1,7 @@
 export const IMG_CDN_URL="https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_660/";
 
+export const SWIGGY_API_URL="https://www.swiggy.com/dapi/restaurants/list/v5?lat=28.52432568813728&lng=77.25242036749513&is-seo-homepage-enabled=true&page_type=DESKTOP_WEB_LISTING" ;
+
 
 export const restrauntList=[
     {
@@ -1949,4 +1951,81 @@ export const restrauntList=[
       }
     
 ];
+
+export const restaurantsData = [
+  {
+    id: 0,
+    name: "Gourmet Bites",
+    cuisine: "French Fusion",
+    priceRange: "$$-$$$",
+    location: "123 Main Street, Cityville"
+  },
+  {
+    id: 1,
+    name: "Spice Haven",
+    cuisine: "Indian",
+    priceRange: "$-$$",
+    location: "456 Spice Lane, Flavortown"
+  },
+  {
+    id: 2,
+    name: "Sushi Delight",
+    cuisine: "Japanese",
+    priceRange: "$$$",
+    location: "789 Ocean Avenue, Sushiville"
+  },
+  {
+    id: 3,
+    name: "Mamma Mia Trattoria",
+    cuisine: "Italian",
+    priceRange: "$$-$$$",
+    location: "101 Pasta Plaza, Pizzatown"
+  },
+  {
+    id: 4,
+    name: "Taco Fiesta",
+    cuisine: "Mexican",
+    priceRange: "$",
+    location: "222 Guacamole Street, Tacotown"
+  },
+  {
+    id: 5,
+    name: "Zen Noodle House",
+    cuisine: "Chinese",
+    priceRange: "$-$$",
+    location: "333 Tranquility Road, Wokville"
+  },
+  {
+    id: 6,
+    name: "BBQ Bliss",
+    cuisine: "American BBQ",
+    priceRange: "$$-$$$",
+    location: "444 Smoky Lane, Grilltown"
+  },
+  {
+    id: 7,
+    name: "Mediterranean Oasis",
+    cuisine: "Mediterranean",
+    priceRange: "$$$",
+    location: "555 Olive Avenue, Gyrotown"
+  },
+  {
+    id: 8,
+    name: "Veggie Delight Cafe",
+    cuisine: "Vegetarian/Vegan",
+    priceRange: "$-$$",
+    location: "666 Green Street, Veggieland"
+  },
+  {
+    id: 9,
+    name: "Seafood Sensation",
+    cuisine: "Seafood",
+    priceRange: "$$$",
+    location: "777 Pier Place, Fishville"
+  }
+];
+
+
+
+
 
